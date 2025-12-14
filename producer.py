@@ -4,7 +4,7 @@ import time
 import csv
 
 BOOTSTRAP = "localhost:9092"
-TOPIC_NAME = 'csv_data_topic'
+TOPIC_NAME = 'taxi_topic'
 CSV_FILE = 'yellow_tripdata_2016-01.csv'
 
 producer = KafkaProducer(
